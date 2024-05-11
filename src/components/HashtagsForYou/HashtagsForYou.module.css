@@ -1,0 +1,24 @@
+.hashtag__list {
+	border: 1px solid #3a444c;
+}
+
+.hashtag {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border-bottom: 1px solid #3a444c;
+	padding: 9px 14px;
+}
+.hashtag:last-child {
+	border-bottom: none;
+}
+
+.hashtag a {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.title {
+	margin: 0;
+	padding: 15px 14px;
+}
