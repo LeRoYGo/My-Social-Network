@@ -22,3 +22,11 @@
 	margin: 0;
 	padding: 15px 14px;
 }
+.hashtag a:first-child {
+	margin-bottom: 0px;
+}
+
+.btn_Show_More {
+	color: #ffb800;
+	font-size: 14px;
+}
