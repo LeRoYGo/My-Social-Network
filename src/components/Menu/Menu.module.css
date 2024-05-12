@@ -1,0 +1,17 @@
+.menu {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+.logo {
+	margin-bottom: 60px;
+}
+.nav {
+	margin-bottom: 50px;
+}
+.buttonPosition {
+	margin-top: auto;
+	margin-bottom: 25px;
+}

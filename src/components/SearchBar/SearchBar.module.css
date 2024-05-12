@@ -1,0 +1,16 @@
+.searchBar {
+	padding-bottom: 6px;
+	border-bottom: 1px solid #3a444c;
+}
+
+.searchBar input {
+	background: rgba(0, 0, 0, 0);
+	border: none;
+	width: 100%;
+	padding: 5px;
+	color: #fff;
+}
+
+.margin {
+	margin-bottom: 40px;
+}

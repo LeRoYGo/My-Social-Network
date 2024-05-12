@@ -1,32 +1,43 @@
-.hashtag__list {
+.hashtagList {
 	border: 1px solid #3a444c;
 }
-
-.hashtag {
+.hashtagItem {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	border-bottom: 1px solid #3a444c;
+	align-items: flex-start;
 	padding: 9px 14px;
 }
-.hashtag:last-child {
-	border-bottom: none;
-}
-
-.hashtag a {
+.hashtagItem a {
 	font-weight: 700;
 	margin-bottom: 5px;
 }
 
 .title {
+	padding: 15px;
 	margin: 0;
-	padding: 15px 14px;
 }
-.hashtag a:first-child {
-	margin-bottom: 0px;
+
+.hashtagList > * {
+	border-bottom: 1px solid #3a444c;
 }
+.hashtagList > *:last-child {
+	border-bottom: none;
+}
+
+.btn a {
+	margin-bottom: 0;
+	color: #ffb800;
+	font-size: 14px;
+	padding: 6px 0;
+	width: 100%;
+}
+
+/*
 
 .btn_Show_More {
 	color: #ffb800;
 	font-size: 14px;
 }
+
+
+*/

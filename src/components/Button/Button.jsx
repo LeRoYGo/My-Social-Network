@@ -1,7 +1,9 @@
 import s from './Button.module.css';
 
-function Button({ style, text }) {
-	return <button className={`${s.button} ${style}`}>{text}</button>;
+function Button(props) {
+	const style = props.position ? `${s.button} ${props.position}` : `${s.button}`;
+
+	return <button className={style}>{props.text}</button>;
 }
 
 export default Button;

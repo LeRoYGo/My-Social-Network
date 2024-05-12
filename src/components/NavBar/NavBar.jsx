@@ -1,22 +1,14 @@
 import { NavLink } from 'react-router-dom';
 import s from './NavBar.module.css';
-import Button from '../Button/Button';
 
 import HomeIcon from '/icon/home.svg';
 import PeopleIcon from '/icon/people.svg';
 import LetterIcon from '/icon/letter.svg';
 import PersonIcon from '/icon/person.svg';
-import Logo from '/logo.svg';
 
-function NavBar() {
-	//person
+function NavBar(props) {
 	return (
-		<div className={`navBar ${s.navBar}`}>
-			<div className={s.logo_company}>
-				<img src={Logo} alt="logo" />
-				<span>teamder</span>
-			</div>
-
+		<nav className={`${s.navBar} ${props.style}`}>
 			<NavLink to="/" className={s.navBar_item}>
 				<img src={HomeIcon} alt="home" />
 				Home
@@ -33,9 +25,7 @@ function NavBar() {
 				<img src={PersonIcon} alt="people icon" />
 				Profile
 			</NavLink>
-			<Button style={s.navBar_item} text={'CREATE A TEAM'} />
-			<Button text={'LOG OUT'} />
-		</div>
+		</nav>
 	);
 }
 
