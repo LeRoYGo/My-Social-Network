@@ -36,3 +36,6 @@ main {
 	margin-left: 30px;
 	width: 346px;
 }
+.content {
+	background: url('../public/404.png') center no-repeat #262626;
+}

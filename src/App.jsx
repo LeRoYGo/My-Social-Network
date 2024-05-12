@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import MyTeamsPage from './pages/MyTeamsPage';
 import NotificationsPage from './pages/NotificationsPage';
 import MyProfile from './pages/MyProfilePage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Route path="my-teams" element={<MyTeamsPage />} />
 				<Route path="notifications" element={<NotificationsPage />} />
 				<Route path="my-profile" element={<MyProfile />} />
+				<Route path="*" element={<NotFoundPage />} />
 			</Route>
 		</Routes>
 	);
